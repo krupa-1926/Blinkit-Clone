@@ -1,4 +1,7 @@
-@media only screen and (min-width: 200px) and (max-width: 575px) {
+@media only screen and (max-width: 600px) {
+  html ,body{
+    overflow-x: hidden;
+  }
   header {
     flex-direction: column;
     align-items: stretch;
@@ -25,5 +28,151 @@
     width: 100%;
     margin-right: 0px;
     justify-content: center;
+  }
+  .bannerSection{
+    margin: 10px ;
+  }
+  .bannerSection img{
+    height: 150px;
+  }
+  .orderSection{
+    display: none;
+  }
+  .categorySection{
+    padding: 0px 20px;
+  }
+  .categorySection h3{
+    display: inline-block;
+    flex-basis: 100%;
+  }
+  .categoryItems{
+    flex-basis: 25%;
+    flex-wrap: wrap; 
+  }
+  .productSection{
+    margin: 0px 20px;
+  }
+  .productItems{
+    flex-basis: 48%;
+  }
+  footer{
+    padding: 0px;
+  }
+  .main-footer{
+    margin: 0px 20px;
+  }
+  .row-1{
+    flex-direction: column;
+  }
+  .row-1-right{
+    flex-basis: 100%;
+  }
+  .useful-link{
+    gap: 25px;
+  }
+  .row-2{
+    flex-direction: column;
+    gap: 30px;
+    margin: 0px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width:992px) {
+  html ,body{
+    overflow-x: hidden;
+  }
+  header {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 10px;
+  }
+  .logo {
+    padding: 10px;
+  }
+  .address {
+    padding: 10px;
+  }
+  .address h3 {
+    font-size: 18px;
+  }
+  .address p {
+    font-size: 15px;
+  }
+  .search button{
+    padding: 15px;
+  }
+  .headerBtn{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    margin-right: 0px;
+    justify-content: center;
+  }
+  .bannerSection{
+    margin: 10px ;
+  }
+  .bannerSection img{
+    height: 200px;
+  }
+  .orderSection{
+    display: none;
+  }
+  .categorySection{
+    margin: 0px 20px;
+  }
+  .categorySection h3{
+    display: inline-block;
+    flex-basis: 100%;
+  }
+  .categoryItems{
+    flex-basis: 20%;
+    flex-wrap: wrap; 
+  }
+  .productSection{
+    margin: 0px 20px;
+  }
+  .productItems{
+    flex-basis: 32%;
+  }
+  footer{
+    padding: 0px;
+  }
+  .main-footer{
+    margin: 0px 20px;
+  }
+  .row-1{
+    flex-direction: column;
+  }
+  .row-1-right{
+    flex-basis: 100%;
+  }
+  .useful-link{
+    gap: 25px;
+  }
+  .row-2{
+    flex-direction: column;
+    gap: 30px;
+    margin: 0px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .bannerSection{
+    margin: 0px 10px ;
+  }
+  .bannerSection img{
+    height: 300px;
+  }
+  .orderSection{
+    margin: 0px 20px;
+  }
+  .categorySection{
+    margin: 0px 20px;
+  }
+  .productSection{
+    margin: 0px 20px;
+  }
+  .main-footer{
+    margin: 0px 20px;
   }
 }

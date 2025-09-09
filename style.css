@@ -99,6 +99,9 @@ header{
     display: flex;
     flex-wrap: wrap;
 }
+.categorySection h3{
+    display: none;
+}
 .categoryItems{
     flex-basis: 10%;
 }
